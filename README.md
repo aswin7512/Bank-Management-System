@@ -26,17 +26,17 @@ For Linux: Run the following commands in the terminal one by one
 - sudo apt install python3-pip
 - sudo apt install mysql-server -y
 - sudo mysql_secure_installation
-    Follow the prompts:
-        Set a root password ✅
-        Remove anonymous users ✅
-        Disallow remote root login ✅
-        Remove test database ✅
-        Reload privilege tables ✅
+-   Follow the prompts:
+-       Set a root password ✅
+-       Remove anonymous users ✅
+-       Disallow remote root login ✅
+-       Remove test database ✅
+-       Reload privilege tables ✅
 - sudo systemctl start mysql
 - sudo systemctl enable mysql
 - Login to MySQL
-    sudo mysql -u root -p
-    - CREATE DATABASE bank_account;
+-   sudo mysql -u root -p
+-       CREATE DATABASE bank_account;
 - pip install mysql.connector
 
 For Windows Download python installer from python.org and MySQL local server and install and run the following command.
@@ -57,7 +57,7 @@ python3 main.py
 <img width="893" height="1029" alt="screenshot2" src="Bank/Screenshots/accnt-details.png">
 
 ### Depositing Money
-<img width="1080" height="1920" alt="screenshot3" src="Bank/Screenshots/deposit.png">
+<img width="893" height="1029" alt="screenshot3" src="Bank/Screenshots/deposit.png">
 
 ### Sending Money
 <img width="893" height="1029" alt="screenshot4" src="Bank/Screenshots/send.png">
