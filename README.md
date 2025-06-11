@@ -26,17 +26,17 @@ For Linux: Run the following commands in the terminal one by one
 - sudo apt install python3-pip
 - sudo apt install mysql-server -y
 - sudo mysql_secure_installation
--   Follow the prompts:
--       Set a root password ✅
--       Remove anonymous users ✅
--       Disallow root login ✅
--       Remove test databbase ✅
--       Reload privilege tables ✅
+-   Follow the prompts to:
+1.       Set a root password ✅
+2.       Remove anonymous users ✅
+3.       Disallow root login ✅
+4.       Remove test databases ✅
+5.       Reload privilege tables ✅
 - sudo systemctl start mysql
 - sudo systemctl enable mysql
-- Login to MySQL
--   sudo mysql -u root -p
--       CREATE DATABASE bank_account;
+- Login to MySQL and Create the database "bank_accounts"
+-       sudo mysql -u root -p
+-       CREATE DATABASE bank_accounts;
 - pip install mysql.connector
 
 For Windows Download python installer from python.org and MySQL local server and install and run the following command.
@@ -51,19 +51,19 @@ python3 main.py
 # Project Demo
 ## Screenshots
 ### Creating Account and Loggin in
-<img width="893" height="1029" alt="screenshot1" src="Bank/Screenshots/accnt-creat.png">
+<img width="277" height="400" alt="screenshot1" src="Bank/Screenshots/accnt-creat.png">
 
 ### Getting Account Details
-<img width="893" height="1029" alt="screenshot2" src="Bank/Screenshots/accnt-details.png">
+<img width="277" height="395" alt="screenshot2" src="Bank/Screenshots/accnt-details.png">
 
 ### Depositing Money
-<img width="893" height="1029" alt="screenshot3" src="Bank/Screenshots/deposit.png">
+<img width="277" height="231" alt="screenshot3" src="Bank/Screenshots/deposit.png">
 
 ### Sending Money
-<img width="893" height="1029" alt="screenshot4" src="Bank/Screenshots/send.png">
+<img width="306" height="279" alt="screenshot4" src="Bank/Screenshots/send.png">
 
 ### Withdrawing Money
-<img width="893" height="1029" alt="screenshot4" src="Bank/Screenshots/withdrawal.png">
+<img width="277" height="231" alt="screenshot4" src="Bank/Screenshots/withdrawal.png">
 
 ### Account Statement
-<img width="893" height="1029" alt="screenshot4" src="Bank/Screenshots/statement.png">
+<img width="306" height="285" alt="screenshot4" src="Bank/Screenshots/statement.png">
