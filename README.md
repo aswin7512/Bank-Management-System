@@ -29,8 +29,8 @@ For Linux: Run the following commands in the terminal one by one
 -   Follow the prompts:
 -       Set a root password ✅
 -       Remove anonymous users ✅
--       Disallow remote root login ✅
--       Remove test database ✅
+-       Disallow root login ✅
+-       Remove test databbase ✅
 -       Reload privilege tables ✅
 - sudo systemctl start mysql
 - sudo systemctl enable mysql
